@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Адреса для донатов</title>
+</head>
+
+<body>
+
+    <div class="donate-card">
+        <div class="header">
+            <div class="header-icon">
+                <img src="image/icon.png" alt="Иконка">
+            </div>
+            <div class="header-title">
+                <h1 class="title">Адреса для доната</h1>
+                <p class="text">Спасибо за поддержку 🙏</p>
+            </div>
+        </div>
+
+        <div class="item" onclick="copyAddr('bc1qtahe6hgrdxzkx757p6sxu35avxzwe3jmd99r6f', this)">
+            <div class="coin btc">B</div>
+            <div class="info">
+                <div class="label">Bitcoin</div>
+                <div class="addr">bc1qtahe6hgrdxzkx757p6sxu35avxzwe3jmd99r6f</div>
+            </div>
+            <button class="copy-btn" title="Скопировать">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+            </button>
+        </div>
+
+        <div class="item" onclick="copyAddr('0x61967B070F437DFc3FBa719A64641a4467Eac446', this)">
+            <div class="coin eth">E</div>
+            <div class="info">
+                <div class="label">Ethereum</div>
+                <div class="addr">0x61967B070F437DFc3FBa719A64641a4467Eac446</div>
+            </div>
+            <button class="copy-btn" title="Скопировать">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+            </button>
+        </div>
+
+        <div class="item" onclick="copyAddr('DzZsW1yJ1SUEo51ivxckKoTyRqaWHZgSZG7r7ZMxFbCr', this)">
+            <div class="coin sol">S</div>
+            <div class="info">
+                <div class="label">Solana</div>
+                <div class="addr">DzZsW1yJ1SUEo51ivxckKoTyRqaWHZgSZG7r7ZMxFbCr</div>
+            </div>
+            <button class="copy-btn" title="Скопировать">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+            </button>
+        </div>
+
+        <div class="item" onclick="copyAddr('ltc1qymuw8773mqxghuxsna33nvxqrgagl47qvxltnz', this)">
+            <div class="coin ltc">L</div>
+            <div class="info">
+                <div class="label">Litecoin</div>
+                <div class="addr">ltc1qymuw8773mqxghuxsna33nvxqrgagl47qvxltnz</div>
+            </div>
+            <button class="copy-btn" title="Скопировать">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+            </button>
+        </div>
+
+        <div class="footer"><span>💎</span> Каждый донат на вес золота <span>💎</span></div>
+    </div>
+
+    <script src="js/scrypt.js"></script>
+</body>
+
+</html>
